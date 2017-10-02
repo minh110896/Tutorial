@@ -5,7 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-
+ruby "~> 2.4.0"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem "rails", "~> 5.1.4"
 gem "bcrypt", "3.1.11"
@@ -21,6 +21,9 @@ gem "bootstrap-will_paginate", "1.0.0"
 gem "carrierwave", "1.1.0"
 gem "mini_magick", "4.7.0"
 gem "fog", "1.40.0"
+gem "nokogiri"
+gem "rack", "~> 2.0.1"
+gem "rspec"
 # Use sqlite3 as the database for Active Recordp
 # Use Puma as the app server
 gem "puma", "~> 3.7"
